@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'gradle-plugin-release'
-version = "${version}-SNAPSHOT"
+version = "${version}"
 sourceCompatibility = '17'
 
 repositories {
