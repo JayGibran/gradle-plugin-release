@@ -31,7 +31,7 @@ release {
 	newVersionCommitMessage = 'Project - new version commit: '
 	snapshotSuffix = '-SNAPSHOT'
 	git {
-		requireBranch.set('release')
+		requireBranch.set(null)
 		pushToRemote.set('origin')
 		pushToBranchPrefix.set('')
 	}
