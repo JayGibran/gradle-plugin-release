@@ -27,8 +27,8 @@ springBoot {
 }
 
 release {
-	preTagCommitMessage = 'Project - pre tag commit: '
-	newVersionCommitMessage = 'Project - new version commit: '
+//	preTagCommitMessage = 'Project - pre tag commit: '
+//	newVersionCommitMessage = 'Project - new version commit: '
 	snapshotSuffix = '-SNAPSHOT'
 	git {
 		requireBranch.set('development')
