@@ -27,8 +27,11 @@ springBoot {
 }
 
 release {
+	preTagCommitMessage = 'Project - pre tag commit: '
+	newVersionCommitMessage = 'Project - new version commit: '
 	git {
 		requireBranch.set('development')
 		pushToRemote.set('origin')
+		pushToBranchPrefix.set('')
 	}
 }
