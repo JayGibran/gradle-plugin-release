@@ -32,7 +32,7 @@ release {
 //	snapshotSuffix = '-SNAPSHOT'
 	git {
 		requireBranch.set('development')
-		pushToRemote.set('origin')
+		pushToRemote.set('release')
 		pushToBranchPrefix.set('')
 	}
 }
