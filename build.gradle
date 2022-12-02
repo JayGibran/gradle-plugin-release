@@ -33,6 +33,6 @@ release {
 	git {
 		requireBranch.set('development')
 		pushToRemote.set('origin')
-		pushToBranchPrefix.set('release')
+		pushToBranchPrefix.set('./release')
 	}
 }
