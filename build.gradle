@@ -30,9 +30,10 @@ release {
 //	preTagCommitMessage = 'Project - pre tag commit: '
 //	newVersionCommitMessage = 'Project - new version commit: '
 //	snapshotSuffix = '-SNAPSHOT'
+	pushReleaseVersionBranch = "release"
 	git {
 		requireBranch.set('development')
-//		pushToRemote.set('origin')
-		pushToBranchPrefix.set('release')
+		pushToRemote.set('origin')
+		pushToBranchPrefix.set('')
 	}
 }
